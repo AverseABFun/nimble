@@ -7642,6 +7642,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 92.71) (xy 107.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10858d88-846b-4757-91e8-466043daf5ed")
+	)
+	(wire
+		(pts
 			(xy 232.41 172.72) (xy 246.38 172.72)
 		)
 		(stroke
@@ -8112,7 +8122,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 139.7) (xy 270.51 139.7)
+			(xy 287.02 139.7) (xy 289.56 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8432,28 +8442,6 @@
 			)
 		)
 	)
-	(global_label "RW"
-		(shape input)
-		(at 257.81 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "03900b79-0c1f-48a3-abe0-1dc96a5650d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.1034 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TX"
 		(shape input)
 		(at 111.76 166.37 0)
@@ -8494,6 +8482,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A13"
+		(shape input)
+		(at 257.81 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08f89809-07ed-4681-917a-37bef4856274")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.3172 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8850,9 +8860,31 @@
 			)
 		)
 	)
+	(global_label "RW"
+		(shape input)
+		(at 257.81 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44f875ca-7268-4730-a8f3-f491df70dcad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.1034 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BL-Enable"
 		(shape input)
-		(at 280.67 137.16 0)
+		(at 299.72 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8862,7 +8894,7 @@
 		)
 		(uuid "4b0f77e8-1a81-4e3b-b67b-d3c1dc71847b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 293.8755 137.16 0)
+			(at 312.9255 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9154,28 +9186,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "A13"
-		(shape input)
-		(at 257.81 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "634ebc32-1e21-48b2-b0c5-13f08a35ade1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.3172 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -14547,7 +14557,7 @@
 	)
 	(symbol
 		(lib_id "fab:SWITCH_AYZ0102AGRLC")
-		(at 275.59 139.7 0)
+		(at 294.64 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14556,7 +14566,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd1b5a10-df7e-4892-a8b6-7e42a8e7cccd")
 		(property "Reference" "SW1"
-			(at 275.59 132.08 0)
+			(at 294.64 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14564,7 +14574,7 @@
 			)
 		)
 		(property "Value" "Slideswitch"
-			(at 275.59 134.62 0)
+			(at 294.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14572,7 +14582,7 @@
 			)
 		)
 		(property "Footprint" "slideSWSMD:slideswitchCK"
-			(at 275.59 139.7 0)
+			(at 294.64 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14581,7 +14591,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ckswitches.com/media/1431/ayz.pdf"
-			(at 275.59 139.7 0)
+			(at 294.64 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14590,7 +14600,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 275.59 139.7 0)
+			(at 294.64 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15010,7 +15020,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 267.97 139.7 0)
+		(at 287.02 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15019,7 +15029,7 @@
 		(fields_autoplaced yes)
 		(uuid "d04ef6fd-c300-4bab-8f4a-d1e62cedef11")
 		(property "Reference" "#PWR021"
-			(at 267.97 143.51 0)
+			(at 287.02 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15028,7 +15038,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 267.97 134.62 0)
+			(at 287.02 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15036,7 +15046,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 139.7 0)
+			(at 287.02 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15045,7 +15055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 139.7 0)
+			(at 287.02 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15054,7 +15064,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 267.97 139.7 0)
+			(at 287.02 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15509,6 +15519,72 @@
 			(project "Nimble"
 				(path "/cac1b442-1e9b-4849-bc2f-933ec367e12a"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 97.79 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd698df9-5efa-4e63-8e3e-18d801a47ecd")
+		(property "Reference" "#PWR029"
+			(at 97.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 97.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 97.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7978ab6-e1a5-4c2d-b5d1-0d7c92131cfa")
+		)
+		(instances
+			(project "Nimble"
+				(path "/cac1b442-1e9b-4849-bc2f-933ec367e12a"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
